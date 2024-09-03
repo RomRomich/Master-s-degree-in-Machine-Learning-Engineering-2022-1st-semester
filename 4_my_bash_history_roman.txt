@@ -1,0 +1,59 @@
+ 1  adduser student7
+    2  adduser student8
+    3  adduser student7
+    4  adduser student8
+    5  adduser student9
+    6  cat /etc/passwd
+    7  groupadd course
+    8  cat /etc/group
+    9  usermod -aG course student7
+   10  usermod -aG course student8
+   11  usermod -aG course student9
+   12  cat /etc/group
+   13  chage --help
+   14  chage -W 7 student7
+   15  cat /etc/passwd
+   16  cat /etc/shadow
+   17  chage -l student7
+   18  chage -M 150 student7
+   19  cat /etc/shadow
+   20  chage -M 150 student7scsc
+   21  chage -M 150 student7 scsc
+   22  ls
+   23  usermod --help
+   24  usermod -L student8
+   25  cat /etc/passwd
+   26  cat /etc/shadow
+   27  history
+   28  history 24
+   29  history 26  my_bash_history_roman.txt
+   30  cat my_bash_history_roman.txt
+   31  cat my_bash_history_roman.txt
+   32  ~cat /etc/passwd  1_passwd.txt
+   33  cat /etc/passwd  1_passwd.txt
+   34  touch /etc/group
+   35  touch /etc/passwd
+   36  touch /etc/shadow
+   37  history  my_bash_history.txt
+   38  ~cat my_bash_history.txt
+   39  cat my_bash_history.txt
+   40  ~history > my_bash_history.txt
+   41  history > my_bash_history.txt
+   42  cat my_bash_history.txt
+   43  ~history 26 > my_bash_history_roman.txt
+   44  history 26 > my_bash_history_roman.txt
+   45  cat my_bash_history_roman.txt
+   46  cat /etc/passwd > 1_passwd.txt
+   47  cat /etc/group  2_group.txt
+   48  cat /etc/shadow  3_shadow.txt
+   49  mv my_bash_roman.txt 4_my_bash_history_roman.txt
+   50  history
+   51  history 33  4_my_bash_history_roman.txt
+   52  history 33 > 4_my_bash_history_roman.txt
+   53  cat /etc/passwd > 1_passwd.txt
+   54  cat /etc/passwd
+   55  cat /etc/group
+   56  3_shadow
+   57  e
+   58  cat /etc/shadow
+   59  history
