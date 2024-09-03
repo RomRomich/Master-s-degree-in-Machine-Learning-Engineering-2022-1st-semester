@@ -1,0 +1,49 @@
+21	ls
+22	cd ./A
+23	cd ./Application_Main/
+24	ls
+25	source ./venvAM/bin/activate
+26	pip3 uninstall requests
+27	ls
+28	cd ../../
+29	ls -l
+30	chmod o+rx ./Application_Main/
+31	chmod o+rx ./John_App/
+32	sudo chmod o+rx ./John_App/
+33	su root
+34	source ./Application_Main/venvAM/bin/activate
+35	pip3 show requests
+36	pip3 install requests
+37	pip3 show requests
+38	python3
+39	deactivate
+40	source ./Application_Main/venvAM/bin/activate
+41	pip3 show requests
+42	pip3 uninstall requests
+43	pip3 install requests
+44	pip3 show requests
+45	touch get.py
+46	touch ./Application_Main/get.py
+47	chmod a+x ./Application_Main/get.py
+48	cd ./Application_Main/
+49	ls
+50	ls -l
+51	nano get.py
+52	ls
+53	chown -R daisy:AM_group ./get.py
+54	ls -l
+55	su michael
+56	exit
+57	cd ./Application_Main/
+58	ls
+59	./get.py
+60	nano get.py
+61	./get.py
+62	su michael
+63	ls -l
+64	cd ./John_App/
+65	cd ./Application_Main/
+66	su michael
+67	history > my_bash_history_daisy.txt
+68	cd ./Application_Main/
+69	history > my_bash_history_daisy

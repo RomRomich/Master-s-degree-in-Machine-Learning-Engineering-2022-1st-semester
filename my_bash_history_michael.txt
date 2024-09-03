@@ -1,0 +1,24 @@
+14	./p
+15	./get.py
+16	nano ./get.py
+17	./get.py
+18	nano ./get.py
+19	./get.py
+20	nano ./get.py
+21	./get.py
+22	nano ./get.py
+23	exit
+24	./get.py
+25	nano get.py
+26	ls -l
+27	su daisy
+28	exit
+29	cd ./venvAM/
+30	source ./bin/activate
+31	which python3
+32	which pip3
+33	pip3 install requests
+34	su root
+35	history
+36	man history
+37	history > my_bash_history_michael.txt

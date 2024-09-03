@@ -1,0 +1,118 @@
+32	ls
+33	chmod o+rx ./John_App/
+34	su john
+35	su daisy
+36	source ./bin/activate
+37	pip3 install requests
+38	python3
+39	deactivate
+40	su daisy
+41	cd ../
+42	cd .//
+43	cd ../
+44	ls -l
+45	chmod o-r ./Application_Main/
+46	chmod o-r ./John_App/
+47	ls -l
+48	su john
+49	ý«
+50	ls
+51	ls -l
+52	chmod o-x ./Application_Main/
+53	chmod o-x ./John_App/
+54	ls -l
+55	su daisy
+56	clear
+57	su daisy
+58	ls
+59	chown -R john:JA_group ./John_App/
+60	chown -R daisy:AM_group ./Application_Main/
+61	ls -al
+62	su john
+63	chmod g+rwx ./Application_Main/
+64	chmod o-rwx ./Application_
+65	ls -l
+66	chmod o-rwx ./John_App/
+67	chmod g+rwx ./Application_Main/
+68	ls -al
+69	chmod g+rwx ./John_App/
+70	ls -al
+71	su daisy
+72	mkdir home
+73	ls
+74	cd ./home
+75	pwd
+76	mkdir John_App Application_Main
+77	ls
+78	which python3
+79	cd ./Application_Main/
+80	python3 -m venv venvAM
+81	apt install python3.10-venv
+82	python3 -m venv venvAM
+83	ls
+84	cd ../
+85	cd ./John_App/
+86	python3 -m venv venvJA
+87	ls
+88	groupadd JA_group
+89	groupadd AM_group
+90	cat /etc/group
+91	usermod -aG JA_group john
+92	usermod -aG AM_group daisy michael
+93	usermod -aG AM_group daisy
+94	usermod -aG AM_group michael
+95	cat /etc/group
+96	ls -l
+97	cd ../
+98	ls -al
+99	chown john:JA_group ./John_App/
+100	ls -al
+101	chown daisy:AM_group ./Application_Main/
+102	ls -al
+103	su john
+104	cat /etc/shadow
+105	cat tail /etc/shadow
+106	cat --h
+107	man tail
+108	cd ../
+109	ls
+110	tail /etc/passwd > 1)users.txt
+111	tail /etc/passwd > 1_users.txt
+112	cat 1_users.txt
+113	cat /etc/passwd
+114	cat /etc/passwd > 1_users.txt
+115	ls
+116	cat 1_users.txt
+117	ls
+118	cat /etc/shadow > 2_shadow.txt
+119	ls
+120	mv 1_users.txt 1_passwd.txt
+121	ls
+122	cat 1_passwd.txt
+123	cat 2_shadow.txt
+124	ls -l
+125	ls -al
+126	cat /etc/group
+127	cat /etc/group > 3_groups.txt
+128	ls
+129	ls -l > 3_rights.txt
+130	cat 3_rights.txt
+131	ls
+132	touch HW.zip
+133	ls
+134	ls -l
+135	touch 1.txt
+136	mv 1.txt HW.zip
+137	cat HW.zip
+138	ls
+139	ls -l ./HW.zip
+140	cd ./HW.zip
+141	ls
+142	rm -r HW.zip
+143	ls
+144	history
+145	ls
+146	cd ./John_App/
+147	ls
+148	cd ../
+149	history > my_bash_history_root.txt

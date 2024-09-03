@@ -1,0 +1,36 @@
+9	ls
+10	cd ./Application_Main/
+11	mkdir aaa
+12	ls
+13	cd ./
+14	cd ./venvAM/
+15	ls
+16	source ./bin/activate
+17	ls
+18	cd ./Application_Main/
+19	ls
+20	source ./venvAM/bin/activate
+21	pip3 uninstall requests
+22	python3
+23	cd ./Application_Main/
+24	ls
+25	cd ./venvA
+26	mkdir 1
+27	ls
+28	source ./venvAM/bin/activate
+29	pip3 show requests
+30	ls
+31	ls
+32	cd ./Application_Main/
+33	sudo su
+34	mkdir john
+35	sudo su root
+36	cd ../
+37	ls
+38	ls -l
+39	sudo su arqo
+40	su arqo
+41	su root
+42	cd ../John_App/
+43	hystory > my_bash_history_john.txt
+44	history > my_bash_history_john.txt
